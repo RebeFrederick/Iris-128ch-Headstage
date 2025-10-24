@@ -1,0 +1,16 @@
+Iris-128 Headstages
+Copyright 2025 Manuel Monge and Emma Jacobs
+
+These headstages include source developed at the Deku Lab (https://deku.uoregon.edu/) and OpenIC (https://openic.org/).
+
+The following components are included:
+
+MCU CMSIS drivers
+https://github.com/openic-org/iris-128/tree/main/iris-128s/mcu/controller/Drivers/CMSIS
+Copyright 2025 STMicroelectronics. All Rights Reserved. (https://www.st.com/content/st_com/en.html)
+Licensed under the Apache License, Version 2.0
+
+MCU STM32U0xx_HAL_Driver drivers
+https://github.com/openic-org/iris-128/tree/main/iris-128s/mcu/controller/Drivers/STM32U0xx_HAL_Driver
+Copyright 2025 STMicroelectronics. All Rights Reserved. (https://www.st.com/content/st_com/en.html)
+Licensed under the BSD-3-Clause license.
