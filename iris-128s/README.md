@@ -1,10 +1,9 @@
-# HS-128S Board
+# Iris-128S
 
 Stuff about this board.
 
-
 <!-- a photo of the device, not the 3D model from KiCad -->
-![HS-128S System](../images/hs-128s-system.png)
+![Iris-128S System](../images/iris-128s-system.png)
 
 ## Description
 
