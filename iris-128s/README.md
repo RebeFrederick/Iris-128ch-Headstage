@@ -2,8 +2,7 @@
 
 Stuff about this board.
 
-<!-- a photo of the device, not the 3D model from KiCad -->
-![Iris-128S System](../images/iris-128s-system.png)
+![Iris-128S System](../images/iris-128s-system.jpg)
 
 ## Description
 
