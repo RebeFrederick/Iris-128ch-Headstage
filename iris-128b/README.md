@@ -1,8 +1,6 @@
-# IRIS128S README.md
-
 # Iris-128S
 
-![Iris-128B System](./images/iris-128b-architecture.jpg)
+![Iris-128S System](./images/iris-128s-system.jpg)
 
 *Fig. 1. System architecture.*
 
