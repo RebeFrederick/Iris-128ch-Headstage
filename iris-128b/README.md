@@ -115,7 +115,7 @@ If you use the commercially available **Molex cables**, note:
 | Surface Finish                  | ENIG            |
 | Copper Weight                   | 1 oz            |
 
-![Iris-128](./images/iris-128b-layers.jpg)
+![Iris-128](./images/iris-128b-layers.png)
 
 
 #### Table 5. Headstage PCB Stack Up
