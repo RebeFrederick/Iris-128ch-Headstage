@@ -1,6 +1,6 @@
 # Iris-128S
 
-![Iris-128](./images/iris-128s-system.jpg)
+![Iris-128](../images/iris-128s-system.jpg)
 
 *Fig. 1. System architecture.*
 
