@@ -20,7 +20,7 @@ This project develops a system that can stimulate and record from 128 channels u
 
 * The **headstage** is a small electronic system placed on top of or near the electrophysiological signals being recorded.
 * It uses **commercially available off-the-shelf components**.
-* The **adapter board** receives signals from the headstage and breaks them out into cables that interface with the **Intan Rec/Stim Controller**.
+* The **adapter board** receives signals from the headstage (through the 80 pin nanopitch Molex connector and cable) and breaks them out into cables that interface with the **Intan Rec/Stim Controller**.
 
 ### Front Iris 128B
 ![Iris-128](../images/iris-128b-front.png)
