@@ -1,6 +1,6 @@
 # Iris-128S
 
-![Iris-128S System](./images/iris-128s-system.jpg)
+![Iris-128](./images/iris-128s-system.jpg)
 
 *Fig. 1. System architecture.*
 
@@ -23,12 +23,12 @@ This project develops a system that can stimulate and record from 128 channels u
 * The **adapter board** receives signals from the headstage and breaks them out into cables that interface with the **Intan Rec/Stim Controller**.
 
 ### Front Iris 128S
-![Iris-128B Front](./images/iris-128b-front.jpg)
+![Iris-128](./images/iris-128b-front.jpg)
 
 Front of Iris 128S with a SEARAY 160 pin connector, four RHS2000 ICs, an 80-pin Molex connector, pinouts, decoupling capacitors, and terminating resistors. Mounting holes are M2.
 
 ### Back Iris 128S
-![Iris-128B Back](./images/iris-128b-back.jpg)
+![Iris-128](./images/iris-128b-back.jpg)
 Back of Iris 128S with four RHS2000 ICs.
 
 ## Iris 128S Details
@@ -58,7 +58,7 @@ The remaining **16×8** are for connecting to the 128 electrodes.
 
 This is the same footprint/connector used with **BlackRock Cereplex E headstages**, maintaining compatibility with interchangeable thin-film interfaces.
 
-![160connector](./images/iris-128b-160connector.jpg)
+![Iris-128](./images/iris-128b-160connector.jpg)
 
 *Fig. 2. Footprint of SEAM 160 (8x20) pin connector. Outer two rows are reserved for reference and gnd. The 3.3V and LED are unconnected. The locations of these gnd and reference pins are meant to match the Cereplex E headstages. We have used thin-films interchangeably between the two systems so we have preserved that footprint in this version of the headstage. The footprint is labeled C#, indicating the chip it routes to, and E# indicating the electrode.*
 
@@ -115,7 +115,7 @@ If you use the commercially available **Molex cables**, note:
 | Surface Finish                  | ENIG            |
 | Copper Weight                   | 1 oz            |
 
-![Iris-128B Layers](./images/iris-128b-layers.jpg)
+![Iris-128](./images/iris-128b-layers.jpg)
 
 
 #### Table 5. Headstage PCB Stack Up
