@@ -2,7 +2,7 @@
 
 # Iris-128S
 
-![Iris-128B System](attachment:5eb12be1-cb78-43e5-894e-733e0b5eb430\:iris-128b-architecture.jpg)
+![Iris-128B System](./images/iris-128b-architecture.jpg)
 
 *Fig. 1. System architecture.*
 
@@ -24,18 +24,19 @@ This project develops a system that can stimulate and record from 128 channels u
 * It uses **commercially available off-the-shelf components**.
 * The **adapter board** receives signals from the headstage and breaks them out into cables that interface with the **Intan Rec/Stim Controller**.
 
-## Front Iris 128S
+### Front Iris 128S
+![Iris-128B Front](./images/iris-128b-front.jpg)
 
 Front of Iris 128S with a SEARAY 160 pin connector, four RHS2000 ICs, an 80-pin Molex connector, pinouts, decoupling capacitors, and terminating resistors. Mounting holes are M2.
 
-## Back Iris 128S
-
+### Back Iris 128S
+![Iris-128B Back](./images/iris-128b-back.jpg)
 Back of Iris 128S with four RHS2000 ICs.
 
 ## Iris 128S Details
 
-**Path:** `\GitHub\iris-128\images\iris-128b-schematic.jpg`
-*Fig. 3. Schematic of Iris 128B.*
+![Iris-128](./images/iris-128b-schematic.jpg)
+*Fig. 1. Schematic of Iris 128B.*
 
 ### Components
 
@@ -59,9 +60,9 @@ The remaining **16×8** are for connecting to the 128 electrodes.
 
 This is the same footprint/connector used with **BlackRock Cereplex E headstages**, maintaining compatibility with interchangeable thin-film interfaces.
 
-![Fig. 2. Footprint of SEAM 160 (8x20) pin connector. Outer two rows are reserved for reference and gnd. The 3.3V and LED are unconnected. The locations of these gnd and reference pins are meant to match the Cereplex E headstages. We have used thin-films interchangeably between the two systems so we have preserved that footprint in this version of the headstage. The footprint is labeled C#, indicating the chip it routes to, and E# indicating the electrode.](attachment:0ba8eadb-645d-475c-a9f0-4f9aada7e65d\:iris-128b-160connector.jpg)
+![160connector](./images/iris-128b-160connector.jpg)
 
-*Fig. 2. Footprint of SEAM 160 (8×20) pin connector.*
+*Fig. 2. Footprint of SEAM 160 (8x20) pin connector. Outer two rows are reserved for reference and gnd. The 3.3V and LED are unconnected. The locations of these gnd and reference pins are meant to match the Cereplex E headstages. We have used thin-films interchangeably between the two systems so we have preserved that footprint in this version of the headstage. The footprint is labeled C#, indicating the chip it routes to, and E# indicating the electrode.*
 
 ### Chip1 through Chip8
 
@@ -116,6 +117,9 @@ If you use the commercially available **Molex cables**, note:
 | Surface Finish                  | ENIG            |
 | Copper Weight                   | 1 oz            |
 
+![Iris-128B Layers](./images/iris-128b-layers.jpg)
+
+
 #### Table 5. Headstage PCB Stack Up
 
 | Layer | Notes                                                      |
@@ -136,21 +140,3 @@ If you use the commercially available **Molex cables**, note:
 |       | *Prepreg*                                                  |
 | 8     | Minimal local routing + GND plane                          |
 
-## File Structure
-
-Details about file structure.
-
-## File Types
-
-Table describing file types.
-
-## Images
-
-![image.png](attachment:331f59c8-d3b2-4c6f-9c59-d482e3a8e6f5\:image.png)
-![image.png](attachment:1a55b7f6-6e66-4f8e-a720-44056b45ac0e\:image.png)
-![image.png](attachment:49c44869-0c68-40de-bc41-c577ff12cf2f\:image.png)
-![image.png](attachment:4c23599f-57f4-43e6-be03-6772c7694352\:image.png)
-![image.png](attachment:602244b0-1f54-4ceb-94d8-16820ad4b32b\:image.png)
-![image.png](attachment:660d93dd-dcb7-472e-930a-fd06eeae485e\:image.png)
-![image.png](attachment:10120b34-ac42-467e-93c0-49755d051cfc\:image.png)
-![image.png](attachment:3aa77ede-ae61-42b5-b506-0d57c3d9677b\:image.png)
