@@ -1,12 +1,12 @@
-# Iris-128S
+# Iris-128B
 
-![Iris-128](../images/iris-128s-system.jpg)
+![Iris-128](../images/iris-128b-architecture.jpg)
 
 *Fig. 1. System architecture.*
 
 ## Description
 
-`IRIS-128S`.
+`IRIS-128B`.
 
 ### Overview
 
@@ -14,26 +14,26 @@ A **128-channel neural interface capable of stimulation and recording**.
 
 This project develops a system that can stimulate and record from 128 channels using commercially available ICs and integrates into existing commercially available controllers (Intan RHS system). This can be used for small animal, anesthetized electrophysiology, non-human primates, or could be applied to clinical, intraoperative human use cases.
 
-### Iris 128S Architecture
+### Iris 128B Architecture
 
-*The Iris 128S system consists of 2 boards: the headstage and the adapter.*
+*The Iris 128B system consists of 2 boards: the headstage and the adapter.*
 
 * The **headstage** is a small electronic system placed on top of or near the electrophysiological signals being recorded.
 * It uses **commercially available off-the-shelf components**.
 * The **adapter board** receives signals from the headstage and breaks them out into cables that interface with the **Intan Rec/Stim Controller**.
 
-### Front Iris 128S
-![Iris-128](./images/iris-128b-front.jpg)
+### Front Iris 128B
+![Iris-128](../images/iris-128b-front.jpg)
 
-Front of Iris 128S with a SEARAY 160 pin connector, four RHS2000 ICs, an 80-pin Molex connector, pinouts, decoupling capacitors, and terminating resistors. Mounting holes are M2.
+Front of Iris 128B with a SEARAY 160 pin connector, four RHS2000 ICs, an 80-pin Molex connector, pinouts, decoupling capacitors, and terminating resistors. Mounting holes are M2.
 
-### Back Iris 128S
-![Iris-128](./images/iris-128b-back.jpg)
-Back of Iris 128S with four RHS2000 ICs.
+### Back Iris 128B
+![Iris-128](../images/iris-128b-back.jpg)
+Back of Iris 128B with four RHS2000 ICs.
 
 ## Iris 128S Details
 
-![Iris-128](./images/iris-128b-schematic.jpg)
+![Iris-128](../images/iris-128b-schematic.jpg)
 *Fig. 1. Schematic of Iris 128B.*
 
 ### Components
@@ -58,7 +58,7 @@ The remaining **16×8** are for connecting to the 128 electrodes.
 
 This is the same footprint/connector used with **BlackRock Cereplex E headstages**, maintaining compatibility with interchangeable thin-film interfaces.
 
-![Iris-128](./images/iris-128b-160connector.jpg)
+![Iris-128](../images/iris-128b-160connector.jpg)
 
 *Fig. 2. Footprint of SEAM 160 (8x20) pin connector. Outer two rows are reserved for reference and gnd. The 3.3V and LED are unconnected. The locations of these gnd and reference pins are meant to match the Cereplex E headstages. We have used thin-films interchangeably between the two systems so we have preserved that footprint in this version of the headstage. The footprint is labeled C#, indicating the chip it routes to, and E# indicating the electrode.*
 
