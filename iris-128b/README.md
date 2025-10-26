@@ -23,12 +23,12 @@ This project develops a system that can stimulate and record from 128 channels u
 * The **adapter board** receives signals from the headstage and breaks them out into cables that interface with the **Intan Rec/Stim Controller**.
 
 ### Front Iris 128B
-![Iris-128](../images/iris-128b-front.jpg)
+![Iris-128](../images/iris-128b-front.png)
 
 Front of Iris 128B with a SEARAY 160 pin connector, four RHS2000 ICs, an 80-pin Molex connector, pinouts, decoupling capacitors, and terminating resistors. Mounting holes are M2.
 
 ### Back Iris 128B
-![Iris-128](../images/iris-128b-back.jpg)
+![Iris-128](../images/iris-128b-back.png)
 Back of Iris 128B with four RHS2000 ICs.
 
 ## Iris 128S Details
