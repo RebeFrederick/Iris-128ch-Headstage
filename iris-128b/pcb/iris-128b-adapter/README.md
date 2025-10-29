@@ -1,6 +1,6 @@
 # Iris-128B-adapter
 
-![Iris-128](../images/iris-128b-adapter-architecture.jpg)
+![Iris-128b-adapter](../images/iris-128b-adapter-architecture.jpg)
 
 *Fig. 1. Adapter connections.*
 
