@@ -1,0 +1,24 @@
+### Footprint positions - created on 2025-10-28T18:49:28-0700 ###
+### Printed by KiCad version 9.0.5
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                          Package                                  PosX       PosY       Rot  Side
+C1        10_uF                        C_0201_0603Metric                     46.5200    14.2500    0.0000  top
+C2        10_uF                        C_0201_0603Metric                     34.1500    14.0500  180.0000  top
+C3        10_uF                        C_0201_0603Metric                     20.4500    14.0500    0.0000  top
+J1        Conn_01x40_Pin               PinHeader_2x20_P2.54mm_Vertical        7.8000    54.2450    0.0000  top
+J2        Conn_02x40_Row_Letter_First  molex                                 22.9000    53.0150  180.0000  top
+R1        R_US                         R_0201_0603Metric                     49.9250    36.4000   90.0000  top
+R2        R_US                         R_0201_0603Metric                     50.0000    31.7050   90.0000  top
+R3        R_US                         R_0201_0603Metric                     49.9000    29.5000   90.0000  top
+R4        R_US                         R_0201_0603Metric                     49.8250    22.7000   90.0000  top
+R5        R_US                         R_0201_0603Metric                     49.8250    24.8750   90.0000  top
+R6        R_US                         R_0201_0603Metric                     49.9000    17.9750   90.0000  top
+S1        ~                            OMNETICS_PZN-16-AA                    53.3157    39.8495  -90.0000  top
+S2        ~                            OMNETICS_PZN-16-AA                    53.3157    33.0075  -90.0000  top
+S3        ~                            OMNETICS_PZN-16-AA                    53.3157    26.1655  -90.0000  top
+S4        ~                            OMNETICS_PZN-16-AA                    53.3157    19.3235  -90.0000  top
+VCC       Barrel_Jack_MountingPin      BarrelJack_CUI_PJ-063AH_Horizontal    46.5000    11.9000    0.0000  top
+VSTIM+    Barrel_Jack_MountingPin      BarrelJack_CUI_PJ-063AH_Horizontal    33.2500    11.9000    0.0000  top
+VSTIM-    Barrel_Jack_MountingPin      BarrelJack_CUI_PJ-063AH_Horizontal    20.1500    11.8500    0.0000  top
+## End

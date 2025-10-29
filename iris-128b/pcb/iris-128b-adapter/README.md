@@ -1,6 +1,6 @@
 # Iris-128B-adapter
 
-![Iris-128](../images/iris-128b-adapter-architecture.jpg)
+![Iris-128](../images/iris-128b-adapter-architecture.png)
 
 *Fig. 1. Adapter connections.*
 
@@ -10,6 +10,6 @@
 
 ### Overview
 
-A **Adapter board**.
+**Adapter board**.
 
 This is a board with no active components on it. It's purpose is simply to route the connections from the Iris-128B headstage to the power supply, and the four ports on the Intan RHS controller. It also has some header pins intended for testing the SPI connections.
