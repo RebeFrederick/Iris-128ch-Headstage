@@ -19,6 +19,7 @@ Open-source 128-channel headstages for neural stimulation and recording.
 | :-----: | :------------- |
 | iris-128b | Project, design, and fabrication files related to Iris-128B Neural Interface System. |
 | iris-128s | Project, design, and fabrication files related to Iris-128S Neural Interface System. |
+| thin-film    | Design files related to the microelectrode test platform. |
 | images    | image files used in README and description files. |
 
 ## EDA Tools used in the Development
