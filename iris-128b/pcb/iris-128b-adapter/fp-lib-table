@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "fp-lib")(type "KiCad")(uri "C:/Users/Emmak/Documents/GitHub/iris-128/iris-128b/pcb/libraries/fp-lib.pretty")(options "")(descr ""))
+)
