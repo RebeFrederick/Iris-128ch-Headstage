@@ -8,6 +8,8 @@ Open-source 128-channel headstages for neural stimulation and recording.
 | :--: | :---------- |
 | [Iris-128B](iris-128b/README.md)  | Fully bidirectional headstage with recording or stimulation across all 128 electrode channels. |
 | [Iris-128S](iris-128s/README.md) | Selective stimulation headstage with recording from 128 channels and stimulation on 16 simultaneous channels out of 32 available stimulation channels. |
+| [Thin-film electrode](thin-film/README.md) | 128 channel surface array used as a test platform for the headstages. |
+
 
 ## File Structure
 
