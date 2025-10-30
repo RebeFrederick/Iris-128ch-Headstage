@@ -2,12 +2,16 @@
 
 Open-source 128-channel headstages for neural stimulation and recording.
 
+*The publication of this work can be found at DOI 10.1088/1741-2552/ae1876. The raw data files corresponding to the publication can be found at https://doi.org/10.17605/OSF.IO/XS2PU.*
+
 ![Iris-128](./images/iris-128-system.jpg)
 
 | Type | Description |
 | :--: | :---------- |
 | [Iris-128B](iris-128b/README.md)  | Fully bidirectional headstage with recording or stimulation across all 128 electrode channels. |
 | [Iris-128S](iris-128s/README.md) | Selective stimulation headstage with recording from 128 channels and stimulation on 16 simultaneous channels out of 32 available stimulation channels. |
+| [Thin-film electrode](thin-film/README.md) | 128 channel surface array used as a test platform for the headstages. |
+
 
 ## File Structure
 
@@ -15,6 +19,7 @@ Open-source 128-channel headstages for neural stimulation and recording.
 | :-----: | :------------- |
 | iris-128b | Project, design, and fabrication files related to Iris-128B Neural Interface System. |
 | iris-128s | Project, design, and fabrication files related to Iris-128S Neural Interface System. |
+| thin-film    | Design files related to the microelectrode test platform. |
 | images    | image files used in README and description files. |
 
 ## EDA Tools used in the Development

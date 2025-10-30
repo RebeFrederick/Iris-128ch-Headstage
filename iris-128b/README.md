@@ -29,6 +29,7 @@ Front of Iris 128B with a SEARAY 160 pin connector, four RHS2000 ICs, an 80-pin 
 
 ### Back Iris 128B
 ![Iris-128](../images/iris-128b-back.png)
+
 Back of Iris 128B with four RHS2000 ICs.
 
 ## Iris 128S Details
@@ -115,7 +116,7 @@ If you use the commercially available **Molex cables**, note:
 | Surface Finish                  | ENIG            |
 | Copper Weight                   | 1 oz            |
 
-![Iris-128](./images/iris-128b-layers.png)
+![Iris-128](./images/iris-128b-layers.jpg)
 
 
 #### Table 5. Headstage PCB Stack Up

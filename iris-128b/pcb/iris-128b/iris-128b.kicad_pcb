@@ -6,7 +6,12 @@
 		(thickness 1.943332)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "Iris-128B")
+		(rev "1.0.0")
+		(company "Deku Lab")
+	)
 	(layers
 		(0 "F.Cu" signal "F.Cu (Minimal routing and GND)")
 		(4 "In1.Cu" power "Supplies and digital signals")
@@ -27293,7 +27298,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f05419b4-78ef-4e16-a1ac-7219e813494b")
 	)
-	(gr_text "Designed by \nEmma Jacobs\nJune 2024"
+	(gr_text "June 2024\nCERN-OHL-P v2"
 		(at 123.25 118.625 0)
 		(layer "B.SilkS")
 		(uuid "36166aa6-40ca-4a36-92f2-5955588f9051")
