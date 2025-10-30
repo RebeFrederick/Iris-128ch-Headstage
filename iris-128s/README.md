@@ -1,19 +1,44 @@
 # Iris-128S
 
-Stuff about this board.
-
 ![Iris-128S System](../images/iris-128s-system.jpg)
+<p style="text-align:center"><i><b>Figure 1.</b> Iris-128S Neural Interface.</i></p>
 
 ## Description
 
-Description text.
+The Iris-128S neural interface consists of 2 boards: the *headstage* and the *adapter*. The *headstage* is a small electronic board that is normally placed on top of or nearby the animal model being studied. It has been designed to be as small as possible while using standard, commercially available off-the-shelf components. The *adapter* is a small electronic board which has been designed to interface with the Intan Recording Controller, the Intan Rec/Stim Controller, and a programmer/computer to program the switches in the *headstage*.
+
+```mermaid
+graph LR
+    c0["128-Ch
+        Electrode
+        Array"]
+    c1["`**Headstage**`"]
+    c2["`**Adapter**`"]
+    c3["Intan Rec
+        Controller"]
+    c4["Intan Rec/Stim
+        Controller"]
+    c5["Programmer"]
+    c0 <--> c1
+    c1 <----> c2
+    c2 <--> c3
+    c2 <--> c4
+    c2 <--> c5
+```
+<p style="text-align:center"><i><b>Figure 2.</b> System Architecture of Iris-128S.</i></p>
+
+
+### Schematic
+
+![Iris-128S System](../images/iris-128b-schematic.jpg)
+<p style="text-align:center"><i><b>Figure 3.</b> Schematic of Iris-128S.</i></p>
 
 ## Specifications
 
-* Spec 1.
-* Spec 2.
-* Feature 1.
-* Feature 2.
+* The headstage consists of the input 128-pin connector (*Conn1*), the analog switches (*Switches*), the recording (*R64*) and stimulation (*S16*) chips, and the output 36-pin connector (*Conn2*). This system is shown in the figure below, where the numbers inside the *Conn1* and *Conn2* blocks represent a set of pins from the connector.
+* The PCB for the *headstage* has a size of 30.2 x 25.5 mm$^2$.
+* *SEAM8 Samtec* connector for interfacing with 128-ch electrode array.
+* 
 
 ## File Structure
 
