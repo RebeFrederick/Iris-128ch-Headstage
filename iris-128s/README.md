@@ -3,6 +3,8 @@
 ![Iris-128S System](../images/iris-128s-system.jpg)
 <p style="text-align:center"><i><b>Figure 1.</b> Iris-128S Neural Interface.</i></p>
 
+<br>
+
 ## Description
 
 The Iris-128S neural interface consists of 2 boards: the *headstage* and the *adapter*. The *headstage* is a small electronic board that is normally placed on top of or nearby the animal model being studied. It has been designed to be as small as possible while using standard, commercially available off-the-shelf components. The *adapter* is a small electronic board which has been designed to interface with the Intan Recording Controller, the Intan Rec/Stim Controller, and a programmer/computer to program the switches in the *headstage* via a MCU.
@@ -29,8 +31,12 @@ graph LR
 ```
 <p style="text-align:center"><i><b>Figure 2.</b> System Architecture of Iris-128S.</i></p>
 
+<br>
+
 ![Iris-128S System](../images/iris-128b-schematic.jpg)
 <p style="text-align:center"><i><b>Figure 3.</b> Schematic of Iris-128S.</i></p>
+
+<br>
 
 ## Specifications
 
@@ -45,6 +51,8 @@ graph LR
 * Programmer in the *Adapter* board is only needed to update the firmware in the MCU, i.e., change the state of the *ADGS5414* switches. After MCU is programmed, only the Intan controlleres are needed.
 * The *adapter* has a size of 50 x 40 mm$^2$.
 
+<br>
+
 ## File Structure
 
 ### Top Folders: /iris-128s
@@ -54,6 +62,8 @@ graph LR
 | pcb | iris-128s <br> iris-128s-adapter <br> libraries <br> datasheets | Project, design, and fabrication files related to Iris-128S headstage PCB fabrication and assembly. <br> Project, design, and fabrication files related to Iris-128S adapter PCB fabrication and assembly. <br> Ki-Cad libraries and common files used in PCBs <br> Datasheets of components used in PCBs. |
 | mcu | controller | Project and firmware files related to MCU programming. |
 
+<br>
+
 ### PCB Folders: /iris-128s/pcb/`Iris-PCB`
 
 | Folder  | Subfolders                  | Description    |
@@ -61,12 +71,15 @@ graph LR
 | . / |  | Project and design files related to `Iris-PCB`. |
 | manufacturing |  gerber <br> assembly <br> bom | Gerber files for fabrication of `Iris-PCB`. <br> Assembly files for `Iris-PCB`. <br> Bill of Materials for `Iris-PCB`. |
 
+<br>
+
 ### MCU Folders: /iris-128s/mcu
 
 | Folder  | Subfolders                  | Description    |
 | :-----: | :-------------------------- | :------------- |
 | controller | Core / Inc <br> Core / Src <br> Core / Startup <br> Debug <br> Drivers | `C` library files. <br> `C` source files. <br> Assembly startup file. <br> Debug-related files. <br> Driver files for target MCU. |
 
+<br>
 
 ## File Types
 
