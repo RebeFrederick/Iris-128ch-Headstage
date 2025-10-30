@@ -27,6 +27,7 @@ Open-source 128-channel headstages for neural stimulation and recording.
 | EDA Tool     | Version | Usage           |
 | :----------: | :-----: | :-------------- |
 | KiCad        | 8.0.5   | Design of PCBs. |
+| KiCad        | 9.0.3   | Design of PCBs. |
 | STM32CubeIDE | 1.16.0  | Design of firmware for MCU. |
 
 ## Developers

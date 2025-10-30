@@ -5,7 +5,9 @@
 
 ## Description
 
-The Iris-128S neural interface consists of 2 boards: the *headstage* and the *adapter*. The *headstage* is a small electronic board that is normally placed on top of or nearby the animal model being studied. It has been designed to be as small as possible while using standard, commercially available off-the-shelf components. The *adapter* is a small electronic board which has been designed to interface with the Intan Recording Controller, the Intan Rec/Stim Controller, and a programmer/computer to program the switches in the *headstage*.
+The Iris-128S neural interface consists of 2 boards: the *headstage* and the *adapter*. The *headstage* is a small electronic board that is normally placed on top of or nearby the animal model being studied. It has been designed to be as small as possible while using standard, commercially available off-the-shelf components. The *adapter* is a small electronic board which has been designed to interface with the Intan Recording Controller, the Intan Rec/Stim Controller, and a programmer/computer to program the switches in the *headstage* via a MCU.
+
+The architecture and schematic of Iris-128S are shown in the figures below.
 
 ```mermaid
 graph LR
@@ -27,40 +29,44 @@ graph LR
 ```
 <p style="text-align:center"><i><b>Figure 2.</b> System Architecture of Iris-128S.</i></p>
 
-
-### Schematic
-
 ![Iris-128S System](../images/iris-128b-schematic.jpg)
 <p style="text-align:center"><i><b>Figure 3.</b> Schematic of Iris-128S.</i></p>
 
 ## Specifications
 
-* The headstage consists of the input 128-pin connector (*Conn1*), the analog switches (*Switches*), the recording (*R64*) and stimulation (*S16*) chips, and the output 36-pin connector (*Conn2*). This system is shown in the figure below, where the numbers inside the *Conn1* and *Conn2* blocks represent a set of pins from the connector.
-* The PCB for the *headstage* has a size of 30.2 x 25.5 mm$^2$.
-* *SEAM8 Samtec* connector for interfacing with 128-ch electrode array.
-* 
+* Recording from all 128 channels.
+* Stimulation from 32 designated channels, where up to 16 of them can be selected for simultaneous stimulation.
+* Compatible with Intan Recording Controller and Intan Stim/Record Controller.
+* *SEAM8 Samtec* connector for interfacing with 128-ch electrode array and compatible with *BlackRock Cereplex E headstages*.
+* The *headstage* has a size of 30.2 x 25.5 mm$^2$.
+* *Omnetics 36-POS* connector to interface with *Adapter* board through a single cable.
+* *Adapter* board draws power directly from the Intan Recording Controller to power itself and the *headstage*.
+* On-board power management unit (PMU) in the *Adapter* board generates the required supplies for the MCU and *ADGS5414* switches.
+* Programmer in the *Adapter* board is only needed to update the firmware in the MCU, i.e., change the state of the *ADGS5414* switches. After MCU is programmed, only the Intan controlleres are needed.
+* The *adapter* has a size of 50 x 40 mm$^2$.
 
 ## File Structure
 
-### Top Folders
+### Top Folders: /iris-128s
 
 | Folder  | Subfolders                  | Description    |
 | :-----: | :-------------------------- | :------------- |
-| iris-128x / pcb | iris-128x <br> iris-128x-adapter <br> libraries <br> datasheets | Project, design, and fabrication files related to Iris-128X headstage PCB fabrication and assembly. <br> Project, design, and fabrication files related to Iris-128X adapter PCB fabrication and assembly. <br> Ki-Cad libraries and common files used in PCBs <br> Datasheets of components used in PCBs. |
-| iris-128s / mcu | controller | Project and firmware files related to MCU programming. |
-| images    |        | image files used in README and description files. |
+| pcb | iris-128s <br> iris-128s-adapter <br> libraries <br> datasheets | Project, design, and fabrication files related to Iris-128S headstage PCB fabrication and assembly. <br> Project, design, and fabrication files related to Iris-128S adapter PCB fabrication and assembly. <br> Ki-Cad libraries and common files used in PCBs <br> Datasheets of components used in PCBs. |
+| mcu | controller | Project and firmware files related to MCU programming. |
 
-### PCB Folders
-
-| Folder  | Subfolders                  | Description    |
-| :-----: | :-------------------------- | :------------- |
-| iris-128x / pcb / `Iris-PCB` |  <br> manufacturing / gerber <br> manufacturing / assembly <br> manufacturing / bom | Project and design files related to `Iris-PCB`. <br> Gerber files for fabrication of `Iris-PCB`. <br> Assembly files for `Iris-PCB`. <br> Bill of Materials for `Iris-PCB`. |
-
-### MCU Folders
+### PCB Folders: /iris-128s/pcb/`Iris-PCB`
 
 | Folder  | Subfolders                  | Description    |
 | :-----: | :-------------------------- | :------------- |
-| iris-128x / mcu / controller | Core / Inc <br> Core / Src <br> Core / Startup <br> Debug <br> Drivers | `C` library files. <br> `C` source files. <br> Assembly startup file. <br> Debug-related files. <br> Driver files for target MCU. |
+| . / |  | Project and design files related to `Iris-PCB`. |
+| manufacturing |  gerber <br> assembly <br> bom | Gerber files for fabrication of `Iris-PCB`. <br> Assembly files for `Iris-PCB`. <br> Bill of Materials for `Iris-PCB`. |
+
+### MCU Folders: /iris-128s/mcu
+
+| Folder  | Subfolders                  | Description    |
+| :-----: | :-------------------------- | :------------- |
+| controller | Core / Inc <br> Core / Src <br> Core / Startup <br> Debug <br> Drivers | `C` library files. <br> `C` source files. <br> Assembly startup file. <br> Debug-related files. <br> Driver files for target MCU. |
+
 
 ## File Types
 
