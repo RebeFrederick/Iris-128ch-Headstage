@@ -18,14 +18,14 @@ This project develops a system that can stimulate and record from 128 channels u
 
 The cable used to connect the headstage to the adapter board is Molex 8X STR NPIO/ 8X STR NPIO 2PC LATCH 34A, #205058-1002. This cable is no longer manufactured. We are working on alternatives - and a smaller version of these headstages. Feel free to contact us (fdeku@uoregon.edu or manuel@openic.org) if you would like to use this design and want to discuss alternative options. 
 
-If you use the commercially available **Molex nanopitch cables**, note:
+If you use the commercially available Molex nanopitch cables, note:
 
 * In this design, pins *Chip 5 – MOSI+* and *Chip 5 – MOSI–* connect to **unused pins** on the cable (A20 and A21). To address this we modified the cable by adding wires to it after it was ordered.
 
 The cost of the headstage is:
 8x$392 RHS2116 chips
 1x$24 SEAM8-20-S02.0-S-08-3 connector
-1x$67  NPIO/ 8X STR NPIO 2PC LATCH 34A cable [DISCONTINUED AS OF AUG. 2025]
+1x$67  NPIO/ 8X STR NPIO 2PC LATCH 34A cable **[DISCONTINUED AS OF AUG. 2025]**
 1x$11 CONN NANO-PITCH I/O RCPT 80P RA connector
 $125 for 1 headstage printed circuit board
 $60 for 1 adapter printed circuit board
