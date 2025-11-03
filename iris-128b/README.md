@@ -22,17 +22,21 @@ If you use the commercially available Molex nanopitch cables, note:
 
 * In this design, pins *Chip 5 – MOSI+* and *Chip 5 – MOSI–* connect to **unused pins** on the cable (A20 and A21). To address this we modified the cable by adding wires to it after it was ordered.
 
-The cost of the headstage is:
-8x$392 RHS2116 chips
-1x$24 SEAM8-20-S02.0-S-08-3 connector
-1x$67  NPIO/ 8X STR NPIO 2PC LATCH 34A cable **[DISCONTINUED AS OF AUG. 2025]**
-1x$11 CONN NANO-PITCH I/O RCPT 80P RA connector
-$125 for 1 headstage printed circuit board
-$60 for 1 adapter printed circuit board
-4x$265 RHS interface cable
+# Headstage Cost Breakdown
 
-**~$3,356 for the headstage**
-~$1,325 for cabling
+- **8 × $392** — RHS2116 chips  
+- **1 × $24** — SEAM8-20-S02.0-S-08-3 connector  
+- **1 × $67** — NPIO / 8X STR NPIO 2PC LATCH 34A cable **_(DISCONTINUED AS OF AUG. 2025)_**  
+- **1 × $11** — CONN NANO-PITCH I/O RCPT 80P RA connector  
+- **$125** — 1 headstage printed circuit board  
+- **$60** — 1 adapter printed circuit board  
+- **4 × $265** — RHS interface cables  
+
+---
+
+### **Estimated Total Costs**
+- **≈ $3,356** — Headstage  
+- **≈ $1,325** — Cabling
 
 #### Table 4. PCB Specifications
 
