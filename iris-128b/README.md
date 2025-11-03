@@ -22,7 +22,7 @@ If you use the commercially available Molex nanopitch cables, note:
 
 * In this design, pins *Chip 5 – MOSI+* and *Chip 5 – MOSI–* connect to **unused pins** on the cable (A20 and A21). To address this we modified the cable by adding wires to it after it was ordered.
 
-# Headstage Cost Breakdown
+### Headstage Cost Breakdown
 
 - **8 × $392** — RHS2116 chips  
 - **1 × $24** — SEAM8-20-S02.0-S-08-3 connector  
@@ -34,7 +34,7 @@ If you use the commercially available Molex nanopitch cables, note:
 
 ---
 
-### **Estimated Total Costs**
+#### **Estimated Total Costs**
 - **≈ $3,356** — Headstage  
 - **≈ $1,325** — Cabling
 
