@@ -1,4 +1,8 @@
 # Iris-128S
+> [!NOTE] Documentation Site
+> Detail documentation and user guides can be found at https://docs.openic.org/iris-128/iris-128s.
+
+<br>
 
 ![Iris-128S System](../images/iris-128s-system.jpg)
 <p style="text-align:center"><i><b>Figure 1.</b> Iris-128S Neural Interface.</i></p>
@@ -33,7 +37,7 @@ graph LR
 
 <br>
 
-![Iris-128S System](../images/iris-128b-schematic.jpg)
+![Iris-128S System](../images/iris-128s-schematic.jpg)
 <p style="text-align:center"><i><b>Figure 3.</b> Schematic of Iris-128S.</i></p>
 
 <br>
