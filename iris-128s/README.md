@@ -1,5 +1,5 @@
 # Iris-128S
-> [!NOTE] Documentation Site
+> [!NOTE]
 > Detail documentation and user guides can be found at https://docs.openic.org/iris-128/iris-128s.
 
 <br>
