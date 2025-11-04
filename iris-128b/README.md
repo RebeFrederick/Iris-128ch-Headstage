@@ -1,7 +1,6 @@
 # Iris-128B
-
-[!NOTE]
-Detail documentation and user guides can be found at https://docs.openic.org/iris-128/iris-128b.
+> [!NOTE]
+> Detail documentation and user guides can be found at https://docs.openic.org/iris-128/iris-128b.
 
 <br>
 
