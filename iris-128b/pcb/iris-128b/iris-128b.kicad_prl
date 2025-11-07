@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -45,25 +45,29 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_020a02ab",
+    "visible_layers": "00000000_00000000_00000000_00000001",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "iris-128b-adapter.kicad_prl",
+    "filename": "iris-128b.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
+      false,
+      false,
       false,
       false,
       false,
@@ -89,7 +93,11 @@
       8,
       9,
       10,
-      11
+      11,
+      12,
+      13,
+      14,
+      15
     ],
     "col_widths": [
       222,
@@ -100,9 +108,13 @@
       136,
       136,
       98,
+      268,
+      269,
+      230,
+      249,
       136,
-      136,
-      136,
+      249,
+      249,
       136
     ],
     "custom_group_rules": [],
