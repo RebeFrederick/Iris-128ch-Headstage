@@ -43,6 +43,10 @@ Use a bench DC power supply such as the HP E3631A Triple Output DC Power Supply 
   - 4 × Omnetics A79633 connectors to Intan RHS ports A–D  
   - 3 × barrel jacks for ±Vstim and VCC  
 
+![iris-128](../../../images/iris-128b-system-labels.jpg)
+
+*Fig. 2. Components and connections of headstage and adapter board.*
+
 ---
 
 ## 4. Hardware Setup
@@ -57,7 +61,7 @@ Use a bench DC power supply such as the HP E3631A Triple Output DC Power Supply 
 
 ![iris-128](../../../images/iris-128b-headstage-attachments.jpg)
 
-*Fig. 2. (A) Headstage with thinfilm attached to stereotax in 3d printed fixture. (B) Headstage and thinfilm.*
+*Fig. 3. (A) Headstage with thinfilm attached to stereotax in 3d printed fixture. (B) Headstage and thinfilm.*
 
 ---
 
@@ -103,7 +107,7 @@ Use a bench DC power supply such as the HP E3631A Triple Output DC Power Supply 
 
 ![iris-128](../../../images/iris-128b-software.jpg)
 
-*Fig. 3. Software launch with 4 connected ports (total 128 channels).*
+*Fig. 4. Software launch with 4 connected ports (total 128 channels).*
 
 ---
 
@@ -142,7 +146,6 @@ Use a bench DC power supply such as the HP E3631A Triple Output DC Power Supply 
 - **Sampling Rates:** 1 – 30 kS/s  
 - **Test Waveform:** Biphasic cathodic-first 4 µA, 500 µs pulses, 100 Hz (0.1 mC/cm² charge density)
 
-*Placeholder image: representative biphasic waveform and voltage transient plots*
 
 ---
 
@@ -165,5 +168,3 @@ Use a bench DC power supply such as the HP E3631A Triple Output DC Power Supply 
 3. Verify REF/GND connections (platinum wire → bone screws).  
 4. Enable power and confirm communication in Intan software.  
 5. Begin recording and stimulation tests.
-
-*Placeholder image: summary diagram showing full experiment wiring flow*
