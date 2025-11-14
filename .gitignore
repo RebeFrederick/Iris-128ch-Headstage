@@ -3,3 +3,5 @@
 **/plot
 **/*-cache
 **/.metadata
+.vscode/*
+**/mcu/controller/Release/*
